@@ -2,7 +2,7 @@ from flask import Flask
 
 app1=Flask(__name__)
 
-@app1.route('/',methods=['GET','POST'])
+@app1.route('/',methods=['GET'])
 def index():
     return "<h1> this is a flask application </h1>"
 
