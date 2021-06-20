@@ -6,7 +6,7 @@ app1=Flask(__name__)
 def index():
     return "<h1> this is a flask application </h1>"
 
-@app1.route('/favicon.ico',methods=['GET'])
+@app1.route('/favicon.ico')
 def favicon():
     return "<h1>Hello</h1>"
 
